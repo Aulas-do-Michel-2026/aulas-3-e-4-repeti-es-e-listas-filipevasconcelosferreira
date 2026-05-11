@@ -25,3 +25,13 @@ Pode-se utilizar o comando "while" ou até o "for" para te ajudar nisso.
 
 Fonte: Curso em vídeo.
 """
+numero = int(input("Digite um número:\n"))
+fatorial= 1
+fator = 1
+if numero != (0 or 1):
+    while fator <= numero:
+        fatorial = fatorial * fator
+        fator = fator + 1
+    print(f"\nO fatorial de {numero} é {fatorial}.") 
+else:
+    print(f"\nO fatorial de {numero} é 1.")  
