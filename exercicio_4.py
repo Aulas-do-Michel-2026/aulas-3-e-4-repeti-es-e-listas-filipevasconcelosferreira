@@ -36,7 +36,6 @@ segunda_lista = [*map(int, input("Digite a sua segunda lista (separando os núme
 # Fazer a partir daqui
 
 # Verificar o maior número na primeira lista
-
 maior_lista1 = 0
 for elemento in primeira_lista:
     if maior_lista1 < elemento:
@@ -44,7 +43,6 @@ for elemento in primeira_lista:
 #print(maior_lista1)       
 
 # Verificar o maior número na segunda lista
-
 maior_lista2 = 0
 for elemento in segunda_lista:
     if maior_lista2 < elemento:
@@ -52,12 +50,11 @@ for elemento in segunda_lista:
 #print(maior_lista2)    
 
 #Verificar qual lista tem o maior número
-
 if maior_lista1 > maior_lista2:
-    print("Resposta:\nPrimeira")
+    print("\nResposta:\nPrimeira")
 elif maior_lista1 < maior_lista2:
-    print("Resposta:\nSegunda")
+    print("\nResposta:\nSegunda")
 else:
-    print("Resposta:\nAmbas")
+    print("\nResposta:\nAmbas")
 
 
