@@ -23,4 +23,4 @@ soma_total = 0
 for i in range(1,numero_escolhido+1):
     soma_total = soma_total + i
 
-print(soma_total)
+print(f"\nA soma de 1 até {numero_escolhido} é {soma_total}.")
