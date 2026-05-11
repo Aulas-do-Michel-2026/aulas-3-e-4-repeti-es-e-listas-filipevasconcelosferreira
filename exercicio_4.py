@@ -51,10 +51,10 @@ for elemento in segunda_lista:
 
 #Verificar qual lista tem o maior número
 if maior_lista1 > maior_lista2:
-    print("\nResposta:\nPrimeira")
+    print("\n\nResposta:\nPrimeira")
 elif maior_lista1 < maior_lista2:
     print("\nResposta:\nSegunda")
 else:
-    print("\nResposta:\nAmbas")
+    print("\n\nResposta:\nAmbas")
 
 
