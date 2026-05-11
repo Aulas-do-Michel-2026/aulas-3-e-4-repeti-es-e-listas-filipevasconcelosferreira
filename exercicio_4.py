@@ -44,9 +44,9 @@ for elemento in primeira_lista:
 
 # Verificar o maior número na segunda lista
 maior_lista2 = 0
-for elemento in segunda_lista:
-    if maior_lista2 < elemento:
-        maior_lista2 = elemento
+for elemento2 in segunda_lista:
+    if maior_lista2 < elemento2:
+        maior_lista2 = elemento2
 #print(maior_lista2)    
 
 #Verificar qual lista tem o maior número
@@ -55,6 +55,6 @@ if maior_lista1 > maior_lista2:
 elif maior_lista1 < maior_lista2:
     print("\nResposta:\nSegunda")
 else:
-    print("\n\nResposta:\nAmbas")
+    print("\nResposta:\nAmbas")
 
 
